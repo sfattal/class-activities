@@ -1,0 +1,46 @@
+/* * {
+    box-sizing: border-box
+} */
+
+.text {
+    border: 1px transparent;
+    float: center;
+    height: 35%;
+    width: 35%;
+    padding: 25px;
+}
+
+#relative {
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    background: #eee;
+}
+
+#absolute {
+    height: 30%;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background: #999;
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+}
+
+#fixed {
+    padding: 40px;
+    text-align: center;
+    background: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* .wrapper {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+} */
